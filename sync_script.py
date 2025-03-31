@@ -4,9 +4,8 @@ import subprocess
 from pathlib import Path
 
 # Configuration
-FOLDERS_TO_TRACK = ["Movies"]
-# BASE_DIR = Path.home() / "SharedMedia"  # Change this to your shared folder path
-BASE_DIR = Path("F:/ShareMedia").resolve()
+FOLDERS_TO_TRACK = ["Movies"]  # Change this to all your shared folder names
+BASE_DIR = Path("F:/ShareMedia").resolve()  # Change this to your shared folder path
 INDEX_FILE = BASE_DIR / "file_index.json"
 GIT_REPO_PATH = BASE_DIR  # Git repository should be initialized here
 
